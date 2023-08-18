@@ -6,6 +6,10 @@
     <title>Sign up</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -19,38 +23,42 @@
             </div>
         </div>
         <main class="content">
-            <p class="message">This is not a trial online service! You know you need something like this in your life to help you realize your deepest dreams. 
-                Sign up now to get started.</p>
-            <p class="subtitle">You know you want to.</p>
-            <form action="" method="post" class="form">
-                <legend>Let's do this!</legend>
-                <div class="option">
-                    <label for="" class="labels">FIRST NAME</label>
-                    <input type="text" class="textbox">
-                </div>
-                <div class="option">
-                    <label for="" class="labels">LAST NAME</label>
-                    <input type="text" class="textbox">
-                </div>
-                <div class="option">
-                    <label for="" class="labels">EMAIL</label>
-                    <input type="email" class="textbox">
-                </div>
-                <div class="option">
-                    <label for="" class="labels">PHONE NUMBER</label>
-                    <input type="text" class="textbox">
-                </div>
-                <div class="option">
-                    <label for="" class="labels">PASSWORD</label>
-                    <input type="password" class="textbox">
-                </div>
-                <div class="option">
-                    <label for="" class="labels">CONFIRM PASSWORD</label>
-                    <input type="password" class="textbox">
-                </div>
-                <input type="submit" value="Create Account">
-            </form>
-            <p class="login">Already have an account? <a href="#" class="link">Log in</a></p>
+            <div class="form-content">
+                <p class="message">This is not a trial online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                    Sign up now to get started.</p>
+                <p class="subtitle">You know you want to.</p>
+                <form action="" method="post" class="form">
+                    <legend>Let's do this!</legend>
+                    <div class="options">
+                        <div class="option">
+                            <label for="" class="labels">FIRST NAME</label>
+                            <input type="text" class="textbox">
+                        </div>
+                        <div class="option">
+                            <label for="" class="labels">LAST NAME</label>
+                            <input type="text" class="textbox">
+                        </div>
+                        <div class="option">
+                            <label for="" class="labels">EMAIL</label>
+                            <input type="email" class="textbox">
+                        </div>
+                        <div class="option">
+                            <label for="" class="labels">PHONE NUMBER</label>
+                            <input type="text" class="textbox">
+                        </div>
+                        <div class="option">
+                            <label for="" class="labels">PASSWORD</label>
+                            <input type="password" class="textbox">
+                        </div>
+                        <div class="option">
+                            <label for="" class="labels">CONFIRM PASSWORD</label>
+                            <input type="password" class="textbox">
+                        </div>
+                    </div>
+                    <input type="submit" value="Create Account" class="submit">
+                </form>
+                <p class="login">Already have an account? <a href="#" class="link">Log in</a></p>
+            </div>
         </main>
     </div>
 </body>
